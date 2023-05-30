@@ -1,0 +1,41 @@
+header {
+    background-color: cadetblue;
+
+}
+
+body {
+    background-color:cornsilk;
+}
+h1 {
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+}
+
+h3 {
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    color: cadetblue;
+}
+
+table {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color:rgba(95, 158, 160, 0.233);
+    text-align: center;
+    border: 1px solid cadetblue;
+    border-collapse: collapse;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+thead {
+    background-color: cadetblue;
+}
+
+th, td {
+    border: 1px solid cadetblue;
+}    
+
+.code {
+    font-family: monospace;
+    background-color:;
+}

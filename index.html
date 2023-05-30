@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link href="./resources/css/styles.css" rel ='stylesheet'>
+        <title>Semantic HTML</title>
+    </head>
+
+    <body>
+       <!--use this to put links to different tables and menus - only one table for now <nav></nav>-->
+       <header>
+        <h1>Semantic HTML</h1>
+       </header>
+       <main>
+        <div>
+            <h3>Table of Tags</h3>
+            <table>
+                <tr>
+                    <thead>
+                        <th scope ="col">Name</th>
+                        <th scope ="col">Tag</th>
+                        <th scope ="col">Description</th>
+                    </thead>
+                </tr>
+                <tr>
+                    <td>Header</td>
+                    <td class="code">&lt;header&gt;</td>
+                    <td>A container usually for navigational links or intro content containing &lt;h1&gt; to &lt;h6&gt;.</td>
+                </tr>
+                <tr>
+                    <td>Nav</td>
+                    <td class="code">&lt;nav&gt;</td>
+                    <td>Defines a block of navigation linke e.g. menus and tables of content. It can be used in the header element or on its own.</td>
+                </tr>
+                <tr>
+                    <td>Main</td>
+                    <td class="code">&lt;main&gt;</td>
+                    <td>This encapsulates the dominant content within the webpage and makes it easier to read.</td>
+                </tr>
+                <tr>
+                    <td>Footer</td>
+                    <td class="code">&lt;footer&gt;</td>
+                    <td>This is the content at the bottom of the subject information. It contains things like contact info, copyright info etc..</td>
+                </tr>
+                <tr>
+                    <td>Article</td>
+                    <td class="code">&lt;article&gt;</td>
+                    <td>This element holds content that makes sense on its own.</td>
+                <tr>
+                    <td>Section</td>
+                    <td class="code">&lt;section&gt;</td>
+                    <td>Defines elements such as chapters, headings or any other area of the document.</td>
+                </tr>
+                <tr>
+                    <td>Aside</td>
+                    <td class="code">&lt;aside&gt;</td>
+                    <td>Information inside this element enhances the info in an article element but it is not required to undersand it.</td>
+                </tr>
+                <tr>
+                    <td>Figure</td>
+                    <td class="code">&lt;figure&gt;</td>
+                    <td>An element used to encapsulate a media, such as images or illustrations.</td>
+                </tr>
+                <tr>
+                    <td>Figcaption</td>
+                    <td class="code">&lt;figcaption&gt;</td>
+                    <td>This describes the media inside the figure element. This is different to &lt;p&gt; tag because the text will follow the figure if it is moved.</td>
+                </tr>
+                <tr>
+                    <td>Audio</td>
+                    <td class="code">&lt;audio&gt;</td>
+                    <td>This element is used to embed audio content into a document. It uses <span class="code">src</span> to link to the source.</td>
+                </tr>
+                <tr>
+                    <td>Video</td>
+                    <td class="code">&lt;video&gt;</td>
+                    <td>This element is used to embed video content.</td>
+                </tr>
+                <tr>
+                    <td>Embed</td>
+                    <td class="code">&lt;embed&gt;</td>
+                    <td>This element can be used for files or external links and different media. It is self closing and deprecated.</td>
+                </tr>   
+            </table>
+        </div>
+        <div>
+            <h3>Table of Attributes</h3>
+            <table>
+                <tr>
+                    <thead>
+                        <th scope ="col">Name</th>
+                        <th scope ="col">Attribute</th>
+                        <th scope ="col">Description</th>
+                    </thead>
+                </tr>
+                <tr>
+                    <td>Source</td>
+                    <td class="code">src</td>
+                    <td>This provides the link to the source of the media being embedded.</td>  
+                </tr>
+                <tr>
+                    <td>Autoplay</td>
+                    <td class="code">autoplay</td>
+                    <td>This results in video automatically playing when loaded.</td>
+                </tr>
+                <tr>
+                    <td>Controls</td>
+                    <td class="code">controls</td>
+                    <td>This adds play/pause onto the video.</td>
+                </tr>
+                <tr>
+                    <td>Loop</td>
+                    <td class="code">loop</td>
+                    <td>This results in the video continuously playing.</td>
+                </tr>
+            </table>
+        </div>
+        <div>
+            <!-- SAVE FOR LATER <h3>Attributes in use</h3>
+            <p>&lt;audio autoplay controls&gt;</p>
+            <p>&lt;source src = "iAmAnAudioFile.mp3" 
+                    type = "audio/mp3"&gt;</p>
+            <p>&lt;/audio&gt;</p>-->
+        </div>
+       </main>
+    </body>
+</html>
